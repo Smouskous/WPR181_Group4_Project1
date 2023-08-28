@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Web 101</title>
+    <link rel="stylesheet" href="style.css" type="text/css">
+</head>
+<body>
+<section class="background">
+    <div class="navbar">
+        <ul class="navlist">
+            <a href="Home.html">
+                <li><button class="active">Home</button></li>
+                    </a>
+                    <a href="Overview.html">
+                <li><button>Overview</button></li>
+                    </a>
+                    <a href="Versus.html">
+                <li><button>Versus</button></li>
+                    </a>
+                    <a href="History.html">
+                <li><button>History</button></li>
+                    </a>
+                    <a href="Evolution.html">
+                <li><button>Evolution</button></li>
+                    </a>
+                    <a href="Protocols.html">
+                <li><button>Protocols</button></li>
+                    </a>
+                    <a href="WAP.html">
+                <li><button>WAP</button></li>
+                    </a>
+                    <a href="CSSSE.html">
+                <li><button>CSSSE</button></li>
+                    </a>
+        </ul>
+    </div>
+
+    <div class="wapGrid">
+
+        <h1 id ="wapHead">Web Application Architecture</h1> 
+
+       <div id="wapImg"><img  src="WAPimg.jpg" alt="wapImg" title="Web Application Architecture Diagram" width="585px " height="300px"> </div> 
+        <div id ="wapOverview"> 
+            <h1><u>Overview</u></h1>
+            <br>
+
+            <p>Web application architecture involves the structural arrangement of components that constitute a web application. 
+                This arrangement determines how various hardware and software elements collaborate to deliver the intended features
+                 and services to users over the internet. A sound web application architecture ensures scalability, security, reliability, 
+                 and ease of maintenance.
+            </p>
+        </div> 
+      <br>
+
+        <div id="csArch">
+        <h2> Client-Server Architecture:</h2>
+        
+        <p>This forms the fundamental basis for most web applications. It entails clients, usually web browsers, 
+            sending requests to servers. The servers process these requests, execute necessary actions, 
+        and return responses to the clients.
+        </p>
+       </div>
+
+       <br>
+
+       <div id="siArch">
+        <h2> Single-Tier Architecture:</h2>
+        
+        <p class="info"> This basic structure integrates an application's presentation, business logic,
+             and data access layers into a single unit. However, it falls short in managing 
+             complex applications due to issues in scalability and maintainability.
+        </p>
+       </div>
+
+       <div id="twoArch">
+        <h2>Two-Tier Architecture: </h2>
+
+        <p class="info">
+            Often referred to as the "client-server" model, this architecture splits the application
+             into two layers: the client (presentation layer) and the server (housing business logic 
+             and data storage). This separation enhances modularity and scalability.    
+        </p>
+       </div>
+
+       <div id="threeArch">
+        <h2> Three-Tier Architecture: </h2>
+
+        <p class="info">
+            Building on the two-tier model, this approach segments the application into three layers: 
+            presentation, application/business logic, and data storage. This facilitates better organization and independent
+             evolution of each layer.    
+        </p>
+       </div>
+
+       <div id="microArch">
+        <h2> Microservices Architecture:</h2>
+
+        <p class="info">
+            This strategy divides an application into discrete, loosely coupled services, each catering to specific
+             business functions. Communication among these services occurs through APIs, enabling independent development, 
+             deployment, and scaling.    
+        </p>
+       </div>
+
+       <div id="monoArch">
+        <h2> Monolithic Architecture: </h2>
+
+        <p class="info">
+            In contrast to microservices, a monolithic architecture involves a singular codebase containing
+             all application components. It's simpler to develop but can become unwieldy as the application grows.     
+        </p>
+       </div>
+        
+    </div>
+</body>
+</section>
+<footer>
+    <em id="copy"> &copy;Copyright 2023, All Rights reserved </em>
+</footer>
+</html>

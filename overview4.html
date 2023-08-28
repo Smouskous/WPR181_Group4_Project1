@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+body {
+  font-family: "Lato", sans-serif;
+}
+
+.sidenav {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: #111;
+  overflow-x: hidden;
+  transition: 0.5s;
+  padding-top: 60px;
+}
+
+.sidenav a {
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #818181;
+  display: block;
+  transition: 0.3s;
+}
+
+.sidenav a:hover {
+  color: #f1f1f1;
+}
+
+.sidenav .closebtn {
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 36px;
+  margin-left: 50px;
+}
+
+#main {
+  transition: margin-left .5s;
+  padding: 16px;
+}
+
+</style>
+<link rel="stylesheet" href="style.css" type="text/css">
+
+</head>
+<body>
+  <section class="background1">
+    <div id="mySidenav" class="sidenav">
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+        <a href="Overview1.html">Historical Context</a>
+        <a href="overview2.html">Fundamental Elements </a>
+        <a href="overview3.html">Client-Server Architecture</a>
+        <a href="overview4.html">Protocols and Standards</a>
+        <a href="overview5.html">Dynamic Web </a>
+        <a href="overview6.html">Social Media </a>
+        <a href="Overview7.html">E-commerce </a>
+        <a href="Overview8.html">Challenges and Future </a>
+        <a href="Overview9.html">Conclusion</a>
+      </div>
+
+<div id="main">
+  <section class="background">
+  <div class="navbar">
+    <div class="social">
+        <aside>
+            <a href="https://www.instagram.com" target="_blank"><img id="insta" src="instagram-logo.png" width="38" height="32"></a><a href="https://twitter.com/home" target="_blank"><img id="twit" src="twitter-x-logo-42554.png" width="38" height="32"></a><a href="https://www.facebook.com" target="_blank"><img id="face" src="pngwing.com.png" width="36" height="41"></a>          
+        </aside>
+    </div>
+    <ul class="navlist">
+        <a href="Home.html">
+    <li class="list1"><button class="active">Home</button></li>
+        </a>
+        <a href="Overview.html">
+    <li class="list1"><button>Overview</button></li>
+        </a>
+        <a href="Versus.html">
+    <li class="list1"><button>Versus</button></li>
+        </a>
+        <a href="History.html">
+    <li class="list1"><button>History</button></li>
+        </a>
+        <a href="Evolution.html">
+    <li class="list1"><button>Evolution</button></li>
+        </a>
+        <a href="Protocols.html">
+    <li class="list1"><button>Protocols</button></li>
+        </a>
+        <a href="WAP.html">
+    <li class="list7"><button>WAP</button></li>
+        </a>
+        <a href="CSSSE.html">
+    <li><button>CSSSE</button></li>
+        </a>
+    </ul>
+</div>
+<span id="span" style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776; Open</span>     
+
+
+<div class="outer-grid">
+    <div class="outer-item"><h1>Protocols and Standards</h1>
+    <p></p>
+    </div>
+    <div class="outer-item">
+    <p><b>The HTTP (Hypertext Transfer Protocol)</b> provides the basis for data transmission via the internet. It outlines the structure and transmission of messages between web browsers and web servers.</p>
+    </div>
+    <div class="outer-item"><p><b> Web content</b> is created and structured using HTML (Hypertext Markup Language), which is the industry standard markup language. It explains how to format text, photos, links, and other types of media using various components and tags.</p></div>
+  </div>
+  
+ 
+  
+</div>
+
+
+<script>
+function openNav() {
+  document.getElementById("mySidenav").style.width = "250px";
+  document.getElementById("main").style.marginLeft = "250px";
+}
+
+function closeNav() {
+  document.getElementById("mySidenav").style.width = "0";
+  document.getElementById("main").style.marginLeft= "0";
+}
+</script>
+</section>    
+</body>
+</html> 
